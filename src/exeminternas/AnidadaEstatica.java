@@ -18,6 +18,7 @@ public class AnidadaEstatica {
         public void amosar(){
             System.out.println("static --> "+ externa_x); //accedemos a variable static
         //    System.out.println(" non static --> "+ externa_y); //non podo acceder por ser non static
+        System.out.println("variable de la clase interna: "+inter);
         }
     }
     
