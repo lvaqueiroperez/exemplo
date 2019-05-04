@@ -5,7 +5,7 @@ public class AnidadaEstatica {
     static int externa_x = 20;
     private int externa_y = 30;
 
-    // acceso a clase interna 
+    // acceso a clase interna DESDE LA EXTERNA
     public void acceder() {
         Interna obx = new Interna();
         obx.amosar();
@@ -13,7 +13,7 @@ public class AnidadaEstatica {
 
     }
 
-    class Interna {
+    static class Interna {
 
         int inter = 4;
 
